@@ -15,13 +15,13 @@ An attacker from the internet sent multiple SQL injection requests against WebSe
 The available evidence did not confirm successful data extraction or server compromise. However, the requests were processed and the LetsDefend investigation treated the alert as requiring further investigation and Tier 2 escalation.
 
 ## 2. Evidence
-
 ### Investigation Details
-![Investigation Details](./images/SOC127-investigation-details.png)
+![Investigation Details](./SOC127-investigation-details.png)
 
 ### Investigation Results
-![Investigation Results](./images/SOC127-investigation-results.png)
+![Investigation Results](./SOC127-investigation-results.png)
 
+### Supporting Evidence
 ### Supporting Evidence
 
 - Source IP: `118.194.247.28`
