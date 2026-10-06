@@ -46,7 +46,7 @@ Each investigation includes two primary screenshots:
 
 The complete PDF report is stored in this folder:
 
-`LetsDefend-10-Alert-Investigation-Report.pdf`
+[`LetsDefend_SOC_10_Alert_Investigation_Report.pdf`](./LetsDefend_SOC_10_Alert_Investigation_Report.pdf)
 
 ## Methodology
 
