@@ -14,13 +14,13 @@ A PowerShell script named `payload_1.ps1` was downloaded and executed on Tony's 
 The investigation also showed DNS and HTTPS communication with infrastructure associated with the malicious activity and evidence of a possible second-stage payload.
 
 ## 2. Evidence
-
 ### Investigation Details
-![Investigation Details](./images/SOC153-investigation-details.png)
+![Investigation Details](./SOC153-investigation-details.png)
 
 ### Investigation Results
-![Investigation Results](./images/SOC153-investigation-results.png)
+![Investigation Results](./SOC153-investigation-results.png)
 
+### Supporting Evidence
 ### Supporting Evidence
 
 - `payload_1.ps1` was downloaded from the LetsDefend file server.
