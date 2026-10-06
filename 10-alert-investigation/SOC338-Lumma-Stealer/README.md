@@ -22,7 +22,6 @@ The investigation showed PowerShell and `mshta.exe` activity downloading an HTA/
 ![Investigation Results](./SOC338-investigation-results.png)
 
 ### Supporting Evidence
-### Supporting Evidence
 
 - Phishing domain: `windows-update.site`
 - Subject promoted a free Windows 11 Pro upgrade.
