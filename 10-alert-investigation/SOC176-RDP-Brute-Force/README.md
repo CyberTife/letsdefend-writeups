@@ -15,13 +15,13 @@ An external attacker performed repeated RDP login attempts against Matthew's end
 After access was obtained, command-line activity showed the attacker performing system and account enumeration.
 
 ## 2. Evidence
-
 ### Investigation Details
-![Investigation Details](./images/SOC176-investigation-details.png)
+![Investigation Details](./SOC176-investigation-details.png)
 
 ### Investigation Results
-![Investigation Results](./images/SOC176-investigation-results.png)
+![Investigation Results](./SOC176-investigation-results.png)
 
+### Supporting Evidence
 ### Supporting Evidence
 
 - Source IP: `218.92.0.56`
