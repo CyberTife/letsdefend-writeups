@@ -22,7 +22,6 @@ The available evidence did not confirm successful data extraction or server comp
 ![Investigation Results](./SOC127-investigation-results.png)
 
 ### Supporting Evidence
-### Supporting Evidence
 
 - Source IP: `118.194.247.28`
 - User-Agent identified as **sqlmap 1.7.2**.
