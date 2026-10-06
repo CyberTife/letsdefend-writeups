@@ -1,56 +1,70 @@
-# LetsDefend Write-ups
+# LetsDefend SOC Investigation Write-ups
 
-Welcome to my LetsDefend learning repository.
+Hands-on SOC Analyst investigations completed through **LetsDefend**.
 
-This repository documents my hands-on blue-team training and Security Operations Center (SOC) investigations completed on the LetsDefend platform.
+This repository documents 10 security alerts investigated from alert validation through evidence collection, attack-chain reconstruction, MITRE ATT&CK mapping, response actions, and final classification.
 
-## 🎯 Goal
+## 🎯 Project Goal
 
-This repository documents my journey toward becoming a Security Operations Center (SOC) Analyst by completing hands-on blue-team investigations on LetsDefend.
+The goal of this project is to demonstrate practical SOC Analyst skills, including:
 
-Each investigation is documented in my own words to reinforce my understanding while building a professional cybersecurity portfolio.
+- Alert triage and validation
+- Log analysis and event correlation
+- Endpoint investigation
+- Phishing and malware analysis
+- Web attack investigation
+- Threat intelligence enrichment
+- MITRE ATT&CK mapping
+- Incident response and containment
+- Tier 2 escalation decisions
+- Security documentation
 
+## 🔎 Investigation Methodology
 
-The purpose of this repository is to demonstrate my learning journey while building practical SOC Analyst skills.
+**Validate → Collect Evidence → Correlate Events → Reconstruct the Attack → Assess Success/Impact → Respond → Classify → Document**
 
----
+For each alert, I reviewed the alert details, identified relevant indicators, correlated available logs and security-tool evidence, assessed whether the attack succeeded, and documented recommended response actions.
 
-## 📂 Investigations
+## 📂 10-Alert Investigation Project
 
-| Investigation | Status |
-|---------------|--------|
-| [📧 Phishing Email Analysis](./Phishing-Email-Analysis) | ✅ Completed |
-| Malware Analysis | ⏳ Coming Soon |
-| SIEM Investigation | ⏳ Coming Soon |
-| Log Analysis | ⏳ Coming Soon |
-| Incident Response | ⏳ Coming Soon |
----
+| Alert | Investigation | Result |
+|---|---|---|
+| SOC335 | [CVE-2024-49138 Exploitation](./10-alert-investigation/SOC335-CVE-2024-49138) | True Positive |
+| SOC336 | [Windows OLE Zero-Click RCE – CVE-2025-21298](./10-alert-investigation/SOC336-CVE-2025-21298) | True Positive |
+| SOC342 | [SharePoint ToolShell Auth Bypass & RCE – CVE-2025-53770](./10-alert-investigation/SOC342-CVE-2025-53770) | True Positive |
+| SOC274 | [PAN-OS Command Injection – CVE-2024-3400](./10-alert-investigation/SOC274-CVE-2024-3400) | True Positive |
+| SOC127 | [SQL Injection](./10-alert-investigation/SOC127-SQL-Injection) | True Positive |
+| SOC338 | [Lumma Stealer / ClickFix Phishing](./10-alert-investigation/SOC338-Lumma-Stealer) | True Positive |
+| SOC153 | [Suspicious PowerShell](./10-alert-investigation/SOC153-Suspicious-PowerShell) | True Positive |
+| SOC282 | [Deceptive Phishing Mail](./10-alert-investigation/SOC282-Phishing) | True Positive |
+| SOC176 | [RDP Brute Force](./10-alert-investigation/SOC176-RDP-Brute-Force) | True Positive |
+| SOC257 | [Unauthorized-Country VPN Attempt](./10-alert-investigation/SOC257-Unauthorized-VPN) | True Positive |
 
-## 🛠️ Skills Covered
+## 🖼️ Evidence
 
-- Phishing Email Analysis
-- Email Header Analysis
-- Threat Intelligence
-- Static Analysis
-- Dynamic Analysis
-- Log Analysis
-- SIEM Fundamentals
-- Incident Response
+Each investigation uses two primary screenshots:
 
-- ## 🚀 Learning Roadmap
+1. **Investigation Details** — alert metadata and investigation information.
+2. **Investigation Results** — LetsDefend playbook answers, outcome and response decisions.
 
-As I continue my SOC Analyst journey, this repository will expand to include:
+Additional supporting screenshots are included where useful, such as Log Management, Threat Intelligence, VirusTotal, endpoint and network evidence.
 
-- Malware Analysis
-- Windows Event Log Investigation
-- Network Traffic Analysis
-- Threat Hunting
-- Digital Forensics
-- SIEM Alert Investigation
-- Incident Response
+## 🛠️ Skills Demonstrated
 
-- ---
+- SOC alert triage
+- Security event correlation
+- Windows investigation
+- RDP investigation
+- PowerShell analysis
+- Phishing investigation
+- Malware analysis
+- Web attack analysis
+- Threat intelligence
+- IOC investigation
+- MITRE ATT&CK
+- Incident response
+- Containment and escalation
 
-> **Note:** These write-ups are created in my own words for learning and portfolio purposes. They do not contain protected challenge answers or confidential platform content.
-> 
-> All write-ups are documented in my own words for educational and portfolio purposes.
+## ⚠️ Disclaimer
+
+These investigations were performed in an authorized cybersecurity training environment on LetsDefend. The repository is for educational and portfolio purposes.
