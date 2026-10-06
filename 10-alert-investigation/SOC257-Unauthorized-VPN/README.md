@@ -22,7 +22,6 @@ The correct password was entered, but the attacker supplied an incorrect MFA one
 ![Investigation Results](./SOC257-investigation-results.png)
 
 ### Supporting Evidence
-### Supporting Evidence
 
 - Source IP: `113.161.158.12`
 - VPN login attempt was observed.
