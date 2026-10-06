@@ -15,13 +15,13 @@ An external source from Vietnam attempted to access the VPN using Monica's crede
 The correct password was entered, but the attacker supplied an incorrect MFA one-time password. The login therefore did not result in a VPN session.
 
 ## 2. Evidence
-
 ### Investigation Details
-![Investigation Details](./images/SOC257-investigation-details.png)
+![Investigation Details](./SOC257-investigation-details.png)
 
 ### Investigation Results
-![Investigation Results](./images/SOC257-investigation-results.png)
+![Investigation Results](./SOC257-investigation-results.png)
 
+### Supporting Evidence
 ### Supporting Evidence
 
 - Source IP: `113.161.158.12`
