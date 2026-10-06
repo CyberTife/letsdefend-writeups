@@ -22,7 +22,6 @@ After access was obtained, command-line activity showed the attacker performing 
 ![Investigation Results](./SOC176-investigation-results.png)
 
 ### Supporting Evidence
-### Supporting Evidence
 
 - Source IP: `218.92.0.56`
 - Multiple RDP attempts were observed.
