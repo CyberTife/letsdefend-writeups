@@ -21,7 +21,6 @@ The investigation also showed DNS and HTTPS communication with infrastructure as
 ![Investigation Results](./SOC153-investigation-results.png)
 
 ### Supporting Evidence
-### Supporting Evidence
 
 - `payload_1.ps1` was downloaded from the LetsDefend file server.
 - VirusTotal identified the script as malicious and associated it with a trojan downloader.
