@@ -22,7 +22,6 @@ The investigation showed that the downloaded file was associated with **AsyncRAT
 ![Investigation Results](./SOC282-investigation-results.png)
 
 ### Supporting Evidence
-### Supporting Evidence
 
 - Sender: `free@coffeeshooop.com`
 - Subject: **Free Coffee Voucher**
