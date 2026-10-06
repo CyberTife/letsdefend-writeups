@@ -15,13 +15,13 @@ Felix received a phishing email from a deceptive domain offering a free coffee v
 The investigation showed that the downloaded file was associated with **AsyncRAT** and that the endpoint communicated with an external C2 address.
 
 ## 2. Evidence
-
 ### Investigation Details
-![Investigation Details](./images/SOC282-investigation-details.png)
+![Investigation Details](./SOC282-investigation-details.png)
 
 ### Investigation Results
-![Investigation Results](./images/SOC282-investigation-results.png)
+![Investigation Results](./SOC282-investigation-results.png)
 
+### Supporting Evidence
 ### Supporting Evidence
 
 - Sender: `free@coffeeshooop.com`
