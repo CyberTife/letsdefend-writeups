@@ -15,13 +15,13 @@ Dylan received a phishing email using fake Windows update branding. The user was
 The investigation showed PowerShell and `mshta.exe` activity downloading an HTA/script payload associated with **Lumma Stealer**.
 
 ## 2. Evidence
-
 ### Investigation Details
-![Investigation Details](./images/SOC338-investigation-details.png)
+![Investigation Details](./SOC338-investigation-details.png)
 
 ### Investigation Results
-![Investigation Results](./images/SOC338-investigation-results.png)
+![Investigation Results](./SOC338-investigation-results.png)
 
+### Supporting Evidence
 ### Supporting Evidence
 
 - Phishing domain: `windows-update.site`
